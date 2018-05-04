@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ShipMov : MonoBehaviour {
 
-    RaycastHit hit;
+    public GameObject StandPoint1;
+    public GameObject StandPoint2;
     Vector3 oriPos;
     Quaternion oriRotation;
     // Use this for initialization
@@ -34,5 +35,14 @@ public class ShipMov : MonoBehaviour {
 
     }
 
+    public  GameObject getSP1()
+    {
+        return StandPoint1;
+    }
+
+   public  GameObject getSP2()
+    {
+        return StandPoint2;
+    }
 }
 
