@@ -7,13 +7,8 @@ public class ShipMov : MonoBehaviour {
     public GameObject StandPoint1;
     public GameObject StandPoint2;
     Vector3 oriPos;
-    Quaternion oriRotation;
     // Use this for initialization
-    void Start () {
-        oriPos = this.transform.position;
-        oriRotation = this.transform.rotation;
-	}
-	
+
 	// Update is called once per frame
 	void Update () {
    
