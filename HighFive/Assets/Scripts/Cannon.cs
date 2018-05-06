@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using UnityEngine;
 
 public class Cannon : MonoBehaviour
@@ -85,34 +84,3 @@ public class Cannon : MonoBehaviour
         canShoot = true;
     }
 }
-=======
-﻿using UnityEngine;
-
-public class Cannon : MonoBehaviour {
-
-    public GameObject bullet;
-    public float cooldown = 2f;
-
-    bool canShoot = true;
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (canShoot) Shoot();
-        }
-    }
-
-    void Shoot()
-    {
-        Instantiate(bullet, transform.position, transform.rotation);
-        canShoot = false;
-        Invoke("ActivateShoot", cooldown);
-    }
-
-    void ActivateShoot()
-    {
-        canShoot = true;
-    }
-}
->>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0

@@ -11,7 +11,6 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1997335504972750}
   m_IsPrefabParent: 1
-<<<<<<< HEAD
 --- !u!1 &1325236410549996
 GameObject:
   m_ObjectHideFlags: 0
@@ -29,8 +28,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-=======
->>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0
 --- !u!1 &1997335504972750
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,12 +40,9 @@ GameObject:
   - component: {fileID: 23854502422976980}
   - component: {fileID: 95522974595250128}
   - component: {fileID: 114376049684546456}
-<<<<<<< HEAD
   - component: {fileID: 114470409885919754}
   - component: {fileID: 135263257376897196}
   - component: {fileID: 114168173600698680}
-=======
->>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0
   m_Layer: 0
   m_Name: IslandWChest1
   m_TagString: Untagged
@@ -56,7 +50,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &4562736822260700
 Transform:
   m_ObjectHideFlags: 1
@@ -70,8 +63,6 @@ Transform:
   m_Father: {fileID: 4624521034862166}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -13.005001, y: 16.543001, z: 138.57701}
-=======
->>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0
 --- !u!4 &4624521034862166
 Transform:
   m_ObjectHideFlags: 1
@@ -79,16 +70,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1997335504972750}
   m_LocalRotation: {x: 0.15718585, y: 0.71245587, z: 0.67883724, w: -0.08294131}
-<<<<<<< HEAD
-  m_LocalPosition: {x: -213.0011, y: 2.35, z: 546.3114}
+  m_LocalPosition: {x: -66.08101, y: 2.35, z: 54.369083}
   m_LocalScale: {x: 0.07704864, y: 0.07704864, z: 0.07704864}
   m_Children:
   - {fileID: 4562736822260700}
-=======
-  m_LocalPosition: {x: -13.433808, y: 4.4409075, z: 13.208809}
-  m_LocalScale: {x: 0.07704864, y: 0.07704864, z: 0.07704864}
-  m_Children: []
->>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -156,7 +141,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-<<<<<<< HEAD
 --- !u!114 &114168173600698680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -170,8 +154,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupEffect: {fileID: 1000011128802252, guid: 96730f8640590934eacb6f860058e7f9,
     type: 2}
-=======
->>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0
 --- !u!114 &114376049684546456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -187,7 +169,6 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
-<<<<<<< HEAD
 --- !u!114 &114470409885919754
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3468,5 +3449,3 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
-=======
->>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0

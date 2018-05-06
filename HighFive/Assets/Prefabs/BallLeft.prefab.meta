@@ -1,4 +1,3 @@
-<<<<<<< HEAD:HighFive/Assets/Prefabs/BallLeft.prefab.meta
 fileFormatVersion: 2
 guid: 262f8d987dd8c714aafa1fe88882eb56
 timeCreated: 1525525994
@@ -9,15 +8,3 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-fileFormatVersion: 2
-guid: 30db3bd048139b4428cf4c120f8f3c85
-timeCreated: 1525457333
-licenseType: Free
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
->>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0:HighFive/Assets/Prefabs/EnemShip.prefab.meta
