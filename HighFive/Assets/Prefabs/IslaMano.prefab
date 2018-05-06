@@ -55,7 +55,10 @@ GameObject:
   - component: {fileID: 4374760521764622}
   - component: {fileID: 95055224635885860}
   - component: {fileID: 64647582683087734}
+<<<<<<< HEAD
   - component: {fileID: 114349076537633644}
+=======
+>>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0
   m_Layer: 0
   m_Name: IslaMano
   m_TagString: Untagged
@@ -220,6 +223,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
 --- !u!114 &114349076537633644
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -235,3 +239,5 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+=======
+>>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0

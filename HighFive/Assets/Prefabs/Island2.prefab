@@ -23,9 +23,12 @@ GameObject:
   - component: {fileID: 23905753231925910}
   - component: {fileID: 95327517998140842}
   - component: {fileID: 114031810967538898}
+<<<<<<< HEAD
   - component: {fileID: 114575679621341338}
   - component: {fileID: 135957698848027122}
   - component: {fileID: 114444552809644196}
+=======
+>>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0
   m_Layer: 0
   m_Name: Island2
   m_TagString: Untagged
@@ -40,7 +43,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1541860164199284}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+<<<<<<< HEAD
   m_LocalPosition: {x: -46.827934, y: 0, z: 408.52194}
+=======
+  m_LocalPosition: {x: -2.2000723, y: -0.62172556, z: 10.105982}
+>>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0
   m_LocalScale: {x: 0.1992313, y: 0.1992313, z: 0.1992313}
   m_Children: []
   m_Father: {fileID: 0}
@@ -123,6 +130,7 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+<<<<<<< HEAD
 --- !u!114 &114444552809644196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -161,3 +169,5 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 7.099456
   m_Center: {x: 0.046839952, y: 0.31078368, z: 2.9680219}
+=======
+>>>>>>> d0b1199e2769c1b2555cbc1caa3bb17a49ac1af0
