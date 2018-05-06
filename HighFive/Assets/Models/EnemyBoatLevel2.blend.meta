@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: b99e3fba8e2c54c49a817db5e71518d9
+timeCreated: 1525480797
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Material
+    2100002: Material_009
+    2100004: Material_001
+    2100006: Velas
+    2100008: Cubierta3_001
+    2100010: Cubierta3
+    2100012: Material_023
+    2100014: cofa
+    2100016: Escotilla
+    2100018: Material_005
+    2100020: cubierta
+    2100022: Material_011
+    2100024: Mastil
+    2100026: cuerda
+    2100028: Material_002
+    2100030: Material_003
+    2100032: cuerda_001
+    2100034: cuerda_004
+    2100036: cuerda_005
+    2100038: cuerda_006
+    2100040: cuerda_007
+    2100042: cuerda_008
+    2100044: cuerda_009
+    2100046: cuerda_010
+    2100048: cuerda_011
+    2100050: cuerda_012
+    2100052: Material_007
+    2100054: Material_006
+    2100056: Material_008
+    2100058: Cubierta3_002
+    2100060: Material_010
+    2100062: Cubierta3_003
+    2100064: Material_013
+    2100066: Material_012
+    2100068: Cubierta3_004
+    2100070: Material_015
+    2100072: Material_014
+    2100074: Cubierta3_005
+    2100076: Material_017
+    2100078: Material_016
+    2100080: Cubierta3_006
+    2100082: Material_019
+    2100084: Material_018
+    2100086: Cubierta3_007
+    2100088: Material_021
+    2100090: Material_020
+    2100092: Cubierta3_008
+    2100094: cofa_001
+    2100096: Cubierta3_009
+    2100098: Material_024
+    2100100: cofa_002
+    2100102: Cubierta3_010
+    2100104: Material_025
+    2100106: Material_026
+    2100108: cofa_003
+    2100110: Cubierta3_011
+    2100112: Material_027
+    2100114: Cubierta3_012
+    2100116: cofa_004
+    2100118: Material_028
+    2100120: Cubierta3_013
+    2100122: cofa_005
+    2100124: Material_029
+    2100126: Cubierta3_014
+    2100128: Material_031
+    2100130: Cubierta3_015
+    2100132: Material_032
+    2100134: Cubierta3_016
+    2100136: Material_033
+    2100138: Cubierta3_017
+    2100140: Material_034
+    2100142: cuerda_002
+    2100144: cuerda_003
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

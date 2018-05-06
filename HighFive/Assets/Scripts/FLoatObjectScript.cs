@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [RequireComponent (typeof(Rigidbody))]
 public class FLoatObjectScript : MonoBehaviour {
     public float waterLevel = 0.0f;
@@ -22,6 +23,11 @@ public class FLoatObjectScript : MonoBehaviour {
             floatForce += new Vector3(0.0f, -downForce, 0.0f);
             GetComponent<Rigidbody>().AddForceAtPosition(floatForce, transform.position);
         }
+    }
+
+    public void changeDownForce(float i)
+    {
+        downForce += i;
     }
 
 }

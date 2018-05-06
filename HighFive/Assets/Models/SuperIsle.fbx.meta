@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 1287576806b1943498f92d8a11c520c6
+timeCreated: 1525592740
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: arena.001
+    2100002: Roca
+    2100004: fire
+    2100006: Material.005
+    2100008: Cuerda
+    2100010: Amaca
+    2100012: Material.004
+    2100014: TreeWood.009
+    2100016: Leaves.009
+    2100018: Coco.009
+    2100020: TreeWood.010
+    2100022: Leaves.010
+    2100024: Coco.010
+    2100026: TreeWood.011
+    2100028: Leaves.011
+    2100030: Coco.011
+    2100032: TreeWood.013
+    2100034: Leaves.013
+    2100036: Coco.013
+    2100038: Cuerda.001
+    2100040: Material.006
+    2100042: Material.007
+    2100044: Material.008
+    2100046: arena.002
+    2100048: arena.003
+    2100050: TreeWood.001
+    2100052: Coco.002
+    2100054: Material.002
+    2100056: arena
+    2100058: Material.003
+    2100060: TreeWood
+    2100062: Leaves
+    2100064: Coco
+    2100066: Leaves.001
+    2100068: Coco.001
+    2100070: TreeWood.002
+    2100072: Leaves.002
+    2100074: TreeWood.003
+    2100076: Leaves.003
+    2100078: Coco.003
+    2100080: TreeWood.004
+    2100082: Leaves.004
+    2100084: Coco.004
+    2100086: TreeWood.005
+    2100088: Leaves.005
+    2100090: Coco.005
+    2100092: TreeWood.006
+    2100094: Leaves.006
+    2100096: Coco.006
+    2100098: TreeWood.007
+    2100100: Leaves.007
+    2100102: Coco.007
+    2100104: TreeWood.008
+    2100106: Leaves.008
+    2100108: Coco.008
+    2100110: TreeWood.012
+    2100112: Leaves.012
+    2100114: Coco.012
+    2100116: Coco.014
+    2100118: Leaves.014
+    2100120: TreeWood.015
+    2100122: Coco.015
+    2100124: Leaves.015
+    2100126: TreeWood.016
+    2100128: TreeWood.017
+    2100130: Leaves.016
+    2100132: Coco.016
+    2100134: TreeWood.018
+    2100136: Leaves.017
+    2100138: Coco.017
+    2100140: Coco.018
+    2100142: Leaves.018
+    2100144: TreeWood.019
+    2100146: TreeWood.020
+    2100148: Leaves.019
+    2100150: Coco.019
+    2100152: TreeWood.021
+    2100154: Leaves.020
+    2100156: Coco.020
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: isle
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

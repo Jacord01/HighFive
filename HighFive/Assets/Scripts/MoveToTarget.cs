@@ -8,21 +8,29 @@ public class MoveToTarget : MonoBehaviour
 
     GameObject target = null;
     public NavMeshAgent player;
+    public bool smallBoat = false;
+
+    private void Start()
+    {
+        if (smallBoat)
+        {
+            target = GameObject.FindGameObjectWithTag("Player");
+        }
+    }
 
     // Update is called once per frame
     void Update()
     {
        // Debug.Log(target);
         if(target != null)
-        player.SetDestination(target.transform.position);
-
-         // player.SetDestination(player.transform.position);
+            player.SetDestination(target.transform.position);
+        if(smallBoat)
+            player.SetDestination(target.transform.position);
+        // player.SetDestination(player.transform.position);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-
-       // Debug.Log("Hemos entrado");
         if (other.GetComponent<ShipMov>()) {
             int aux = Random.Range(0, 2);
             if (aux == 0)
@@ -32,6 +40,7 @@ public class MoveToTarget : MonoBehaviour
             else
               target =  other.GetComponent<ShipMov>().getSP2();
 
+            gameObject.GetComponent<EnemyManager>().fightin();
         }
     }
 }

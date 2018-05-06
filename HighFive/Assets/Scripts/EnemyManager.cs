@@ -1,41 +1,86 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
-public class EnemyManager : MonoBehaviour {
-    public int lives = 10;
+public class EnemyManager : MonoBehaviour
+{
+    public int lives = 3;
+    public bool loosing = false;
+    bool figth = false;
+    public int looseFactor = 1;
 
     [SerializeField]
     public Transform[] wheres;
-
-    //public Transform whereToDrop1;
-    //public Transform whereToDrop2;
-    //public Transform whereToDrop3;
-    //public Transform whereToDrop4;
-
     public GameObject DropElement = null;
+    public GameObject DropElement2 = null;
 
-    private void Start()
-    {
-        drop();
-    }
-
-    // Update is called once per frame
-    void Update () {
-      
-	}
 
     void drop()
     {
-       
-        int p = Random.Range(0, 4);
-        Debug.Log(p);
 
-        for (int i = 0; i < p; i++)
+        if (DropElement != null)
         {
-            Instantiate(DropElement, wheres[i]);
+            int p = Random.Range(0, 4);
+            Debug.Log(p);
+
+            for (int i = 0; i < p; i++)
+            {
+                GameObject aux;
+                int rnd = Random.Range(0, 2);
+                if (rnd == 0)
+                {
+                    aux = Instantiate(DropElement, wheres[i]);
+                    GameManager.instance.addPiratesToScore(1);
+                }
+                else
+                {
+                    aux = Instantiate(DropElement2, wheres[i]);
+                    GameManager.instance.addPiratesToScore(2);
+                }
+                GameManager.instance.addPiratesToScore(2);
+                aux.transform.SetParent(null);
+
+            }
+        }
+        else Debug.Log("EL DROP ELEMENT ES NULL");
+    }
+
+    public void pierdeVida()
+    {
+        lives -= looseFactor;
+        Debug.Log("VIDAS" + lives);
+        if (lives <= 0)
+        {
+            
+            loosing = true;
+            gonnaDestroy();
 
         }
+    }
 
+    void gonnaDestroy()
+    {
+        GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
+        drop();
+        Destroy(gameObject);
+    }
+
+    public void fightin()
+    {
+        figth = true;
+    }
+    public bool getfight() { return figth; }
+
+    public void setFactor()
+    {
+        looseFactor *= 2;
+        Invoke("RestoreFactor", 30f);
+    }
+
+    void RestoreFactor()
+    {
+        looseFactor /= 2;
     }
 }
+

@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: fd244633264f05045b240cab960aa3dc
+timeCreated: 1525480804
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2100000: cuerda_003
+    2100002: cuerda_005
+    2100004: Mastil
+    2100006: Cubierta3_008
+    2100008: metal
+    2100010: canon_002
+    2100012: Material_028
+    2100014: Material
+    2100016: Material_011
+    2100018: Quilla
+    2100020: VelaEnemigo
+    2100022: cubierta
+    2100024: Cuerpo
+    2100026: cofa_007
+    2100028: cofa_008
+    2100030: canon_003
+    2100032: cofa_009
+    2100034: canon_004
+    2100036: cofa_010
+    2100038: canon_005
+    2100040: cofa_011
+    2100042: canon_006
+    2100044: cofa_012
+    2100046: canon_007
+    2100048: cofa_013
+    2100050: canon_008
+    2100052: Material_005
+    2100054: Material_004
+    2100056: canon_009
+    2100058: Material_007
+    2100060: canon_010
+    2100062: Material_006
+    2100064: Material_009
+    2100066: canon_011
+    2100068: Material_008
+    2100070: Material_012
+    2100072: canon_012
+    2100074: Material_010
+    2100076: Material_014
+    2100078: Material_013
+    2100080: canon_013
+    2100082: Material_016
+    2100084: Material_015
+    2100086: canon_014
+    2100088: canon_015
+    2100090: canon_016
+    2100092: canon_017
+    2100094: canon_021
+    2100096: canon_020
+    2100098: canon_019
+    2100100: canon_018
+    2100102: canon_025
+    2100104: canon_024
+    2100106: canon_023
+    2100108: canon_022
+    2100110: canon_029
+    2100112: canon_027
+    2100114: canon_026
+    2100116: Mastil_001
+    2100118: cuerda_000
+    2100120: cuerda_001
+    2100122: cuerda_002
+    2100124: cuerda_004
+    2100126: canon_028
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cylinder_059
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
