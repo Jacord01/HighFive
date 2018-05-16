@@ -5,7 +5,7 @@ using UnityEngine;
 public class MenuController : MonoBehaviour {
 
     public Animator anim;
-    public GameObject canvas;
+    public GameObject panel;
 
     private void Start()
     {
@@ -16,7 +16,7 @@ public class MenuController : MonoBehaviour {
     public void MoveCamera()
     {
         GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
-        canvas.SetActive(false);
+        panel.SetActive(false);
         anim.SetBool("playing", true);
 
     }

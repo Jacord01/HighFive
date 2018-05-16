@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -274,8 +274,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.16078432, g: 0.78039217, b: 0.9411765, a: 1}
-    m_PressedColor: {r: 0.03179065, g: 0.49694297, b: 0.61764705, a: 1}
+    m_HighlightedColor: {r: 0.9921569, g: 0.8078432, b: 0.3647059, a: 1}
+    m_PressedColor: {r: 0.8078432, g: 0.62352943, b: 0.18039216, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -637,7 +637,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: bdf94709c8e8f4140ab2a50359325446, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d56ed2dd8f5b5c3428e311b4a0080213, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
