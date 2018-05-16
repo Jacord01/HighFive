@@ -34,7 +34,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1907191825868894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5506477, y: 2.2475247, z: 6.0810184}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52,9 +52,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   water: {fileID: 0}
+  rocks: {fileID: 1955495894423514, guid: e1e40f8d2689e46428ea4abf7f2b2d72, type: 2}
   surface: {fileID: 0}
+  cargaIslas: 1
+  hand: {fileID: 1862821803169896, guid: 2618822748c8a9148acd81fc91618714, type: 2}
+  TNTnumber: 0
+  bulletsNumber: 10
+  loadIMG: {fileID: 0}
+  pirateScoreText: {fileID: 0}
+  TimerText: {fileID: 0}
+  TNTText: {fileID: 0}
+  BulletsText: {fileID: 0}
+  healthImage: {fileID: 0}
   islands:
-  - {fileID: 100000, guid: f7ecea7abfebd754683d4e762d4aee86, type: 3}
-  - {fileID: 100000, guid: 65a24bef4adfd3a40b391ea9aa5683bc, type: 3}
-  - {fileID: 100000, guid: 092b453e18190db44b54b73bc84e17ed, type: 3}
-  - {fileID: 100000, guid: d62caa3511ab78e419ff7c3eb2c214ae, type: 3}
+  - {fileID: 1786238327115894, guid: ce06649a9f755dc4ab07985ad263a476, type: 2}
+  - {fileID: 1541860164199284, guid: c5aeb35a846182245bb1ea45929dee16, type: 2}
+  - {fileID: 1997335504972750, guid: ffd6a00b63c57e24b960d8d8b415daff, type: 2}
+  - {fileID: 1334756449473194, guid: e1634a7c1d7404442a2f954d12c88b99, type: 2}
+  - {fileID: 1726199645975594, guid: 469f77dc5c642a8428be529f46e7ea7d, type: 2}
+  - {fileID: 1529502530546716, guid: 7b38ac974b5da8e40b62fc13cead9303, type: 2}
+  ships:
+  - {fileID: 1265203189469444, guid: 9c9eff298abbeef48a74c387b3dc2e52, type: 2}
+  - {fileID: 1807041314731386, guid: f4404800ca5c22d4d8731e0b34abf145, type: 2}
+  - {fileID: 1428360574931014, guid: 6c609eb33fdd4974887336f6aacc9701, type: 2}

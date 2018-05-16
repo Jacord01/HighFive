@@ -40,9 +40,9 @@ GameObject:
   - component: {fileID: 23854502422976980}
   - component: {fileID: 95522974595250128}
   - component: {fileID: 114376049684546456}
-  - component: {fileID: 114470409885919754}
   - component: {fileID: 135263257376897196}
   - component: {fileID: 114168173600698680}
+  - component: {fileID: 114940127139989118}
   m_Layer: 0
   m_Name: IslandWChest1
   m_TagString: Untagged
@@ -70,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1997335504972750}
   m_LocalRotation: {x: 0.15718585, y: 0.71245587, z: 0.67883724, w: -0.08294131}
-  m_LocalPosition: {x: -66.08101, y: 2.35, z: 54.369083}
+  m_LocalPosition: {x: -349.92395, y: 2.35, z: 95.26088}
   m_LocalScale: {x: 0.07704864, y: 0.07704864, z: 0.07704864}
   m_Children:
   - {fileID: 4562736822260700}
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
---- !u!114 &114470409885919754
+--- !u!114 &114940127139989118
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -177,13 +177,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1997335504972750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d07ce676d7afda4dabb3b0f7dd5e654, type: 3}
+  m_Script: {fileID: 11500000, guid: f8687c7925ae5934e8b890eea32d5ffa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_OverrideArea: 0
-  m_Area: 0
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!135 &135263257376897196
 SphereCollider:
   m_ObjectHideFlags: 1

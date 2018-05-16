@@ -195,8 +195,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionEffect: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b,
     type: 2}
-  explosionRadius: 10
-  explosionForce: 700
+  explosionRadius: 1
+  explosionForce: 0
   firePower: -2500
 --- !u!114 &114297454488157590
 MonoBehaviour:

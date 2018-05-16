@@ -150,7 +150,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1265203189469444}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -227.56827, y: 0, z: -33.957973}
+  m_LocalPosition: {x: -174.73796, y: 0, z: -207.63734}
   m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
   m_Children:
   - {fileID: 4765005420031822}
@@ -364,8 +364,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.05, y: 0.2074367, z: 0.18297671}
-  m_Center: {x: -0.008459845, y: -0.022112345, z: 0.03275224}
+  m_Size: {x: 0.05, y: 0.2074367, z: 0.12}
+  m_Center: {x: -0.008459845, y: -0.022112345, z: 0.04}
 --- !u!82 &82647852823113880
 AudioSource:
   m_ObjectHideFlags: 1
@@ -549,7 +549,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 2.85
-  m_Speed: 3.5
+  m_Speed: 4.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 150
@@ -558,6 +558,6 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: 1.16
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4

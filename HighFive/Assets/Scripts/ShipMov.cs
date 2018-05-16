@@ -8,15 +8,13 @@ public class ShipMov : MonoBehaviour {
     public GameObject StandPoint1;
     public GameObject StandPoint2;
     public float speed = 10;
-
+    bool StandPoint1Occupied_ = false;
+    bool StandPoint2Occupied_ = false;
 
     // Use this for initialization
 
-	// Update is called once per frame
-	void Update () {
-
-        this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y + 0.1f / 10.5f * Mathf.Sin(Time.time * 2)
-          , this.transform.position.z);
+    // Update is called once per frame
+    void Update () {
 
         if ((Input.GetKey(KeyCode.W)))
             this.transform.Translate(0, -speed * Time.deltaTime,0 ) ;
@@ -67,5 +65,16 @@ public class ShipMov : MonoBehaviour {
     {
         health = f;
     }
+
+    public void setSP(int i, bool s)
+    {
+        if (i == 1)
+            StandPoint1Occupied_ = s;
+        else if (i == 2)
+            StandPoint2Occupied_ = s;
+    }
+
+    public bool getSP1State() { return StandPoint1Occupied_; }
+    public bool getSP2State() { return StandPoint2Occupied_; }
 }
 
