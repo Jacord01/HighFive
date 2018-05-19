@@ -13,12 +13,5 @@ public class MainShipBallsCol : MonoBehaviour {
             GetComponentInParent<ShipMov>().pierdeVida();
 
         }
-
-        else if (other.GetComponent<Barrell>())
-        {
-            other.GetComponent<Barrell>().Collision();
-            GetComponentInParent<ShipMov>().pierdeVida();
-
-        }
     }
 }

@@ -6,7 +6,7 @@ public class BarrelDropper : MonoBehaviour {
 
     public Transform dropper;
     public GameObject barrel;
-    public float cooldown = 10f;
+    public float cooldown = 4f;
 
     bool canDrop = true;
 

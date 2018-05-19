@@ -15,7 +15,8 @@ public class Cannonball: MonoBehaviour {
     {
         Rigidbody rb = GetComponent<Rigidbody>();
         rb.AddForce(transform.right * firePower);
-
+        if (FindObjectOfType<IslandsMovement>())
+            explosionForce = 0;
         Invoke("destroyMe", 5f);
     }
 

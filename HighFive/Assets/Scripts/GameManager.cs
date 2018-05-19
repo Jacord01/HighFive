@@ -107,14 +107,31 @@ public class GameManager : MonoBehaviour {
         hand.transform.position = new Vector3(0, 8, 0);
         Instantiate(hand);
 
-       int numIslands = Random.Range(150,250);
+       int numIslands = Random.Range(200,300);
        
         for (int i = 0; i < numIslands; i++)
         {
             random(out posX, out posZ);
 
 
-            int p = Random.Range(0, islands.Length);
+            int p = Random.Range(0, 100);
+
+            if (p < 65)
+            {
+                if (Random.Range(0, 2) == 0)
+                    p = 0;
+                else
+                    p = 1;
+            }
+            else if (p < 85)
+            {
+                if (Random.Range(0, 2) == 0)
+                    p = 4;
+                else p = 5;
+            }
+
+            else { if (Random.Range(0, 2) == 0) p = 2; else p = 3; }
+
             float y;
             if (p == 2 || p == 3)
                 y = 2.35f;
@@ -127,14 +144,21 @@ public class GameManager : MonoBehaviour {
             Instantiate(islands[p]);
         }
 
+        //Ships
         for (int i = 0; i < 300; i++)
         {
             random(out posX, out posZ);
 
-            int p = Random.Range(0, 3);
+            int p = Random.Range(0, 101);
+
+            if (p < 50)
+                p = 0;
+            else if (p < 75)
+                p = 1;
+            else p = 2;
 
             v = new Vector3(posX, 0, posZ);
-           
+
             ships[p].transform.position = v;
             Instantiate(ships[p]);
 
@@ -212,5 +236,25 @@ public class GameManager : MonoBehaviour {
     public int getPirates()
     {
         return piratesScore;
+    }
+
+    public void createShip()
+    {
+        float posX, posZ;
+
+        random(out posX, out posZ);
+
+        int p = Random.Range(0, 101);
+
+        if (p < 60)
+            p = 0;
+        else if (p < 75)
+            p = 1;
+        else p = 2;
+
+        Vector3 v = new Vector3(posX, 0, posZ);
+
+        ships[p].transform.position = v;
+        Instantiate(ships[p]);
     }
 }

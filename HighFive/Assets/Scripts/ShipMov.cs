@@ -9,24 +9,17 @@ public class ShipMov : MonoBehaviour {
     public GameObject StandPoint2;
     float speed = 0;
     public float maxSpeed = 10;
+    float oriMaxSpeed = 10;
     public float velocity = 0.1f;
     bool StandPoint1Occupied_ = false;
     bool StandPoint2Occupied_ = false;
-
-    Rigidbody rb;
-
-    // Use this for initialization
-    private void Start()
-    {
-        rb = gameObject.GetComponent<Rigidbody>();
-    }
 
     // Update is called once per frame
     void Update () {
 
         if ((Input.GetKey(KeyCode.W)))
         {
-            speed += velocity / 2;
+            speed += velocity / 1.5f;
           
         }
         else
@@ -44,21 +37,18 @@ public class ShipMov : MonoBehaviour {
 
         if (Input.GetKey(KeyCode.A))
         {
-
-            rb.AddTorque(transform.forward * 10);
-            transform.Rotate(0, 0, -30 * Time.deltaTime);
-            
+            transform.Rotate(0, 0, -speed * 2* Time.deltaTime, Space.Self);
         }
 
-     
-
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) )
         {
-            transform.Rotate(0, 0, 30 * Time.deltaTime);
+             transform.Rotate(0, 0, speed * 2 * Time.deltaTime, Space.Self);
         }
 
-      }
+    
+    }
 
+   
     public  GameObject getSP1()
     {
         return StandPoint1;
@@ -77,13 +67,15 @@ public class ShipMov : MonoBehaviour {
 
     public void AddVelocity()
     {
-        speed *= 2;
-        Invoke("ResetSpeed", 30f);
+        speed += 5;
+        maxSpeed += 5;
+        Invoke("ResetSpeed", 5f);
     }
 
     void ResetSpeed()
     {
-        speed /= 2;
+        speed -= 5;
+        maxSpeed = oriMaxSpeed;
     }
 
     public void AddHealth()

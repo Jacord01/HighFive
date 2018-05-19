@@ -21,9 +21,8 @@ public class EnemyManager : MonoBehaviour
 
         if (DropElement != null)
         {
-            int p = Random.Range(0, 4);
-            Debug.Log(p);
-
+            int p = Random.Range(1, 4);
+           
             for (int i = 0; i < p; i++)
             {
                 GameObject aux;
@@ -43,14 +42,14 @@ public class EnemyManager : MonoBehaviour
 
             }
         }
-        else Debug.Log("EL DROP ELEMENT ES NULL");
+        else Debug.LogWarning("EL DROP ELEMENT ES NULL");
     }
 
     public void pierdeVida()
     {
         lives -= looseFactor;
-        Debug.Log("VIDAS" + lives);
-        if (lives <= 0)
+       
+        if (lives <= 0 && !loosing)
         {
             
             loosing = true;
@@ -63,6 +62,7 @@ public class EnemyManager : MonoBehaviour
     {
         GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
         drop();
+        FindObjectOfType<GameManager>().createShip();
         Destroy(gameObject);
     }
 
@@ -75,7 +75,7 @@ public class EnemyManager : MonoBehaviour
     public void setFactor()
     {
         looseFactor *= 2;
-        Invoke("RestoreFactor", 30f);
+        Invoke("RestoreFactor", 10f);
     }
 
     void RestoreFactor()

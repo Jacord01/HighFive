@@ -69,7 +69,7 @@ public class IsleMovement : MonoBehaviour {
             GameManager.instance.setPiratesScore(0);
             GameManager.instance.checkPlayerHP(100);
 
-            Timer.instance.addTime(5f * pirates);
+            Timer.instance.addTime(7f * pirates);
             GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
         }
     }

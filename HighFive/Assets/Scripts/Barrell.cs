@@ -10,13 +10,24 @@ public class Barrell : MonoBehaviour {
 
     bool hasExploded = false;
 
-    public void Collision()
+    private void OnTriggerEnter(Collider other)
     {
-        if (!hasExploded)
+        if (other.gameObject.GetComponent<ShipMov>() || other.gameObject.GetComponent<EnemyManager>())
         {
-            Debug.Log("EXPLODING!");
-            hasExploded = true;
-            Explode();
+            if (!hasExploded)
+            {
+                Debug.Log("EXPLODING!");
+                hasExploded = true;
+                Explode();
+
+                if (other.gameObject.GetComponent<ShipMov>())
+                {
+                    other.gameObject.GetComponent<ShipMov>().pierdeVida();
+                }
+
+                else
+                    other.gameObject.GetComponent<EnemyManager>().pierdeVida();
+            }
         }
     }
 

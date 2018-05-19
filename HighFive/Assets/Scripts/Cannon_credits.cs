@@ -12,12 +12,12 @@ public class Cannon_credits : MonoBehaviour {
 
     private void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Q)) || (Input.GetButtonDown("XBox_X")) || (Input.GetButtonDown("XBox_LeftBumper")))
+        if ((Input.GetKeyDown(KeyCode.Q)))
         {
             if (canShoot) ShootLeft();
         }
 
-        if ((Input.GetKeyDown(KeyCode.E)) || (Input.GetButtonDown("XBox_B")) || (Input.GetButtonDown("XBox_RightBumper")))
+        if ((Input.GetKeyDown(KeyCode.E)))
         {
             if (canShoot) ShootRight();
         }

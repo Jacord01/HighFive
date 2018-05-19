@@ -1114,7 +1114,8 @@ MonoBehaviour:
   health: 100
   StandPoint1: {fileID: 1975190781964158}
   StandPoint2: {fileID: 1473751017092810}
-  speed: 10
+  maxSpeed: 10
+  velocity: 0.1
 --- !u!114 &114720927816294158
 MonoBehaviour:
   m_ObjectHideFlags: 1
