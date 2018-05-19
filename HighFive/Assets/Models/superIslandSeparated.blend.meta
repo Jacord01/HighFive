@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: bcfb4130df6c0994b886bf4ed4956c61
+timeCreated: 1526765622
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: isle
+    100002: isle_001
+    100004: isle_002
+    100006: isle_003
+    100008: isle_004
+    100010: //RootNode
+    400000: isle
+    400002: isle_001
+    400004: isle_002
+    400006: isle_003
+    400008: isle_004
+    400010: //RootNode
+    2100000: Roca
+    2100002: arena
+    2100004: arena_001
+    2100006: fire
+    2100008: Material_005
+    2100010: Cuerda
+    2100012: Amaca
+    2100014: Material_004
+    2100016: TreeWood_009
+    2100018: Leaves_009
+    2100020: Coco_009
+    2100022: TreeWood_010
+    2100024: Leaves_010
+    2100026: Coco_010
+    2100028: TreeWood_011
+    2100030: Leaves_011
+    2100032: Coco_011
+    2100034: TreeWood_013
+    2100036: Leaves_013
+    2100038: Coco_013
+    2100040: Cuerda_001
+    2100042: Material_006
+    2100044: Material_007
+    2100046: Material_008
+    2100048: arena_002
+    2100050: arena_003
+    2100052: TreeWood_001
+    2100054: Coco_002
+    2100056: Material_002
+    2100058: Material_003
+    2100060: TreeWood
+    2100062: Leaves
+    2100064: Coco
+    2100066: Leaves_001
+    2100068: Coco_001
+    2100070: TreeWood_002
+    2100072: Leaves_002
+    2100074: TreeWood_003
+    2100076: Leaves_003
+    2100078: Coco_003
+    2100080: TreeWood_004
+    2100082: Leaves_004
+    2100084: Coco_004
+    2100086: TreeWood_005
+    2100088: Leaves_005
+    2100090: Coco_005
+    2100092: TreeWood_006
+    2100094: Leaves_006
+    2100096: Coco_006
+    2100098: TreeWood_007
+    2100100: Leaves_007
+    2100102: Coco_007
+    2100104: TreeWood_008
+    2100106: Leaves_008
+    2100108: Coco_008
+    2100110: TreeWood_012
+    2100112: Leaves_012
+    2100114: Coco_012
+    2100116: Coco_014
+    2100118: Leaves_014
+    2100120: TreeWood_015
+    2100122: Coco_015
+    2100124: Leaves_015
+    2100126: TreeWood_016
+    2100128: TreeWood_017
+    2100130: Leaves_016
+    2100132: Coco_016
+    2100134: TreeWood_018
+    2100136: Leaves_017
+    2100138: Coco_017
+    2100140: Coco_018
+    2100142: Leaves_018
+    2100144: TreeWood_019
+    2100146: TreeWood_020
+    2100148: Leaves_019
+    2100150: Coco_019
+    2100152: TreeWood_021
+    2100154: Leaves_020
+    2100156: Coco_020
+    2300000: isle
+    2300002: isle_001
+    2300004: isle_002
+    2300006: isle_003
+    2300008: isle_004
+    3300000: isle
+    3300002: isle_001
+    3300004: isle_002
+    3300006: isle_003
+    3300008: isle_004
+    4300000: isle_004
+    4300002: isle_003
+    4300004: isle_002
+    4300006: isle_001
+    4300008: isle
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
